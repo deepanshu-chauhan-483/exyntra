@@ -1,5 +1,3 @@
-# ⚡Exyntra – Visual Web Scraping & Automation Platform  
-
 # Exyntra – Visual Web Scraping & Automation Platform
 
 ![Exyntra Logo](app/exyntra.png)
