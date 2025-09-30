@@ -14,7 +14,7 @@ export async function GetAvailableCredits() {
   if (!balance) {
     // If no balance record exists, create one with default 20 credits and return 20
     const created = await prisma.userBalance.create({
-      data: { userId, credits: 20 },
+      data: { userId, credits: 100 },
     });
     return created.credits;
   }

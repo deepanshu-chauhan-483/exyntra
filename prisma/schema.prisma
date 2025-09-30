@@ -17,7 +17,7 @@ model Workflow {
   description   String?
   definition    String
   executionPlan String?
-  creditsCost   Int     @default(20)
+  creditsCost   Int     @default(100)
   status        String // DRAFT | PUBLISHED
 
   cron String?
@@ -82,7 +82,7 @@ model ExecutionLog {
 
 model UserBalance {
   userId  String @id
-  credits Int    @default(20)
+  credits Int    @default(100)
 }
 
 model Credential {

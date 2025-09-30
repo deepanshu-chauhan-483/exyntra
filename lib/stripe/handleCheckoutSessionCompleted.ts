@@ -22,15 +22,26 @@ export async function HandleCheckoutSessionCompleted(
   if (!purchasePack) {
     throw new Error("Invalid Package");
   }
+  // Defensive validation: ensure credits is a safe positive integer and within a reasonable cap
+  const creditsToAdd = purchasePack.credits;
+  if (
+    typeof creditsToAdd !== "number" ||
+    !Number.isFinite(creditsToAdd) ||
+    !Number.isInteger(creditsToAdd) ||
+    creditsToAdd <= 0 ||
+    creditsToAdd > 1000000 // arbitrary large cap to avoid abuse
+  ) {
+    throw new Error("Invalid credits amount from purchase pack");
+  }
   await prisma.userBalance.upsert({
     where: { userId },
     create: {
       userId,
-      credits: purchasePack.credits,
+      credits: creditsToAdd,
     },
     update: {
       credits: {
-        increment: purchasePack.credits,
+        increment: creditsToAdd,
       },
     },
   });
