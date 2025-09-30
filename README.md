@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/f4806685-eefe-4ab6-a67c-5a99691ca724" alt="Exyntra Logo" width="600"/>
+  <img src="scraper-flow/components/file/exyntra.png" alt="Exyntra Logo" width="600"/>
 </p>
 
 <p align="center">
