@@ -1,21 +1,17 @@
 # ⚡Exyntra – Visual Web Scraping & Automation Platform  
 
-<p align="center">
+# Exyntra – Visual Web Scraping & Automation Platform
+
+![Exyntra Logo](app/exyntra.png)
+
 **Built by Deepanshu Chauhan**
-</p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/deepanshu-chauhan-483/exyntra/master/app/exyntra.png" alt="Exyntra Logo" width="600"/>
-</p>
-
-
-<p align="center">
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-blue?logo=tailwind-css)](https://tailwindcss.com/)
 [![Clerk Auth](https://img.shields.io/badge/Auth-Clerk-green?logo=clerk)](https://clerk.dev/)
 [![Stripe](https://img.shields.io/badge/Payments-Stripe-626CD9?logo=stripe)](https://stripe.com/)
 [![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com/)
-</p>
+
 
 
 ---
