@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="[scraper-flow/components/file/exyntra.png](https://github.com/deepanshu-chauhan-483/exyntra/blob/master/app/exyntra.png)" alt="Exyntra Logo" width="600"/>
-  
+  <img src="https://raw.githubusercontent.com/deepanshu-chauhan-483/exyntra/master/app/exyntra.png" alt="Exyntra Logo" width="600"/>
 </p>
+
 
 <p align="center">
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
