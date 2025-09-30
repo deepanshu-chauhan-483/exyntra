@@ -1,11 +1,12 @@
-# ⚡ Exyntra – Visual Web Scraping & Automation Platform  
+# ⚡Exyntra – Visual Web Scraping & Automation Platform  
 
 <p align="center">
 **Built by Deepanshu Chauhan**
 </p>
 
 <p align="center">
-  <img src="scraper-flow/components/file/exyntra.png" alt="Exyntra Logo" width="600"/>
+  <img src="[scraper-flow/components/file/exyntra.png](https://github.com/deepanshu-chauhan-483/exyntra/blob/master/app/exyntra.png)" alt="Exyntra Logo" width="600"/>
+  
 </p>
 
 <p align="center">
