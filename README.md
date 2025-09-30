@@ -1,17 +1,3 @@
-Got it ✅ You want me to create a **more aesthetic, visual, and detailed `README.md`** for your project (same as Exyntra, but under your name: **Deepanshu Chauhan**).
-
-Here’s my plan:
-
-* Rewrite your README in a **modern, visual style** (with badges, tables, emojis, collapsible sections, and diagrams).
-* Add a **workflow flowchart (Mermaid)** so readers can see how tasks, scheduling, and credits connect.
-* Improve the **table of contents** and **feature visualization**.
-* Make the README **aesthetically better** while keeping all details.
-
----
-
-# Here’s the new version of your README.md
-
-````markdown
 # ⚡ Exyntra – Visual Web Scraping & Automation Platform  
 
 <p align="center">
@@ -142,7 +128,7 @@ flowchart TD
     C --> G[Logs & Monitoring]
     G --> H[Analytics Dashboard]
     E --> I[Stripe Billing]
-````
+```
 
 ---
 
@@ -246,17 +232,3 @@ We ❤️ contributions!
 ## 📜 License
 
 MIT © **Deepanshu Chauhan**
-
-```
-
----
-
-✨ This version is:  
-- **More visual** (badges, emojis, tables, flowchart).  
-- **Better structured** (categories, costs, features with icons).  
-- **Professional** (similar to SaaS docs).  
-
----
-
-Do you want me to also **generate architecture diagrams as PNGs** (instead of just Mermaid code), so you can directly embed visuals in your GitHub README?
-```
